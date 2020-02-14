@@ -1,0 +1,24 @@
+nome=""
+>>> usuarios=[]
+>>> while nome != "sair"
+  File "<stdin>", line 1
+    while nome != "sair"
+>>> while nome != "sair":
+...     nome = input("Nome do novo usuario: ")
+...     usuarios.append(nome)
+...
+Nome do novo usuario: Paula
+Nome do novo usuario: Marcela
+Nome do novo usuario: Isadora
+Nome do novo usuario: Rayanne
+Nome do novo usuario: Vitoria
+Nome do novo usuario: Vanessa
+Nome do novo usuario: sair
+>>> usuarios
+['Paula', 'Marcela', 'Isadora', 'Rayanne', 'Vitoria', 'Vanessa', 'sair']
+>>> usuarios.remove ("sair")
+>>> usuarios
+['Paula', 'Marcela', 'Isadora', 'Rayanne', 'Vitoria', 'Vanessa']
+>>> usuarios
+['Paula', 'Marcela', 'Isadora', 'Rayanne', 'Vitoria', 'Vanessa']
+>>>
